@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#042f2e" />
+    </linearGradient>
+    <linearGradient id="maple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e" />
+      <stop offset="100%" stop-color="#dc2626" />
+    </linearGradient>
+    <linearGradient id="ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14b8a6" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  
+  <!-- Outer Accent Ring (Budget wheel) -->
+  <circle cx="256" cy="256" r="190" fill="none" stroke="url(#ring)" stroke-width="14" stroke-dasharray="800" stroke-dashoffset="180" stroke-linecap="round" opacity="0.85" />
+  <circle cx="256" cy="256" r="190" fill="none" stroke="#e2e8f0" stroke-width="6" stroke-dasharray="4 16" opacity="0.3" />
+
+  <!-- Maple Leaf Silhouette with Financial Cadence -->
+  <path d="M256 100 L274 165 L335 155 L310 205 L365 230 L325 265 L350 310 L285 300 L270 380 L256 380 L242 380 L227 300 L162 310 L187 265 L147 230 L202 205 L177 155 L238 165 Z" fill="url(#maple)" filter="drop-shadow(0px 8px 16px rgba(220, 38, 38, 0.4))" />
+  
+  <!-- Dollar Symbol inside leaf center -->
+  <text x="256" y="272" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="76" font-weight="900" fill="#ffffff" text-anchor="middle" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.5))">$</text>
+  
+  <!-- Flinks synchronization nodes -->
+  <circle cx="120" cy="140" r="10" fill="#14b8a6" />
+  <circle cx="392" cy="140" r="10" fill="#14b8a6" />
+  <path d="M120 140 Q 256 80 392 140" fill="none" stroke="#14b8a6" stroke-width="4" stroke-dasharray="8 8" opacity="0.5" />
+</svg>
