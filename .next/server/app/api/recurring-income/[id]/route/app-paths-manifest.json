@@ -1,0 +1,3 @@
+{
+  "/api/recurring-income/[id]/route": "app/api/recurring-income/[id]/route.js"
+}

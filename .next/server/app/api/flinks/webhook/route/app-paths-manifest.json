@@ -1,0 +1,3 @@
+{
+  "/api/flinks/webhook/route": "app/api/flinks/webhook/route.js"
+}
